@@ -58,7 +58,7 @@
     width: 100%;
 }
 
-div {
+.row {
     height: 50px;
     border: 1px solid red;
 }
@@ -74,9 +74,13 @@ div {
     clear: both;
 } 
 
+body {
+    margin: 0;
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-  }
+}
   
