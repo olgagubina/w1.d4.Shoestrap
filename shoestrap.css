@@ -58,11 +58,6 @@
     width: 100%;
 }
 
-.row {
-    height: 50px;
-    border: 1px solid red;
-}
-
 .row:before {
     display: table;
     content: "";
@@ -76,6 +71,11 @@
 
 body {
     margin: 0;
+}
+
+div {
+    height: 50px;
+    border: 1px solid red;
 }
 
 * {
